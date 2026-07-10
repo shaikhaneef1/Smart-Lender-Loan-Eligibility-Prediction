@@ -54,30 +54,26 @@ This project demonstrates the practical implementation of Machine Learning with 
 
 ---
 
-# 📂 Project Structure
+## 📁 Project Structure
 
+```text
 Smart-Lender/
-│
 ├── Dataset/
 │   └── loan_prediction.csv
-│
 ├── Flask/
 │   ├── static/
 │   │   ├── css/
 │   │   │   └── style.css
 │   │   └── js/
 │   │       └── script.js
-│   │
 │   ├── templates/
 │   │   ├── index.html
 │   │   ├── about.html
 │   │   ├── predict.html
 │   │   └── result.html
-│   │
 │   ├── app.py
 │   ├── model.pkl
 │   └── scaler.pkl
-│
 ├── Screenshots/
 ├── Training/
 ├── requirements.txt
