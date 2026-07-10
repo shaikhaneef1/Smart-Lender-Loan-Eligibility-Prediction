@@ -55,46 +55,35 @@ This project demonstrates the practical implementation of Machine Learning with 
 ---
 
 # 📂 Project Structure
+
 Smart-Lender/
 │
 ├── Dataset/
-│ └── loan_prediction.csv
+│   └── loan_prediction.csv
 │
 ├── Flask/
-│ ├── static/
-│ │ ├── css/
-| | |  |-- style.css
-│ │ └── js/
-│ │    |-- script.js
-| |    
-│ ├── templates/
-│ │ ├── index.html
-│ │ ├── about.html
-│ │ ├── predict.html
-│ │ └── result.html
-│ │
-│ ├── app.py
-│ ├── model.pkl
-│ └── scaler.pkl
+│   ├── static/
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   └── js/
+│   │       └── script.js
+│   │
+│   ├── templates/
+│   │   ├── index.html
+│   │   ├── about.html
+│   │   ├── predict.html
+│   │   └── result.html
+│   │
+│   ├── app.py
+│   ├── model.pkl
+│   └── scaler.pkl
 │
 ├── Screenshots/
-│ ├── Home.png
-│ ├── About.png
-│ ├── Loan Eligibility Prediction.png
-│ ├── Loan Approved.png
-│ └── Loan Rejected.png
-│
 ├── Training/
-│ ├── Smart_Lender.ipynb
-│ ├── model.pkl
-│ └── scaler.pkl
-│
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
-
----
+```
 
 # 🔄 Workflow
 
@@ -130,17 +119,22 @@ Loan Prediction
 
 ---
 
-# 📸 Application Screenshots
+## 📸 Screenshots
 
-- Home Page
+### Home Page
+![Home](Screenshots/Home.png)
 
-- About Page
+### About Page
+![About](Screenshots/About.png)
 
-- Loan Eligibility Prediction Page
+### Loan Eligibility Prediction
+![Prediction](Screenshots/Loan%20Eligibility%20Prediction.png)
 
-- Loan Approved
+### Loan Approved
+![Approved](Screenshots/Loan%20Approved.png)
 
-- Loan Rejected
+### Loan Rejected
+![Rejected](Screenshots/Loan%20Rejected.png)
 
 # ⚙ Installation
 
