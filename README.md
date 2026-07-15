@@ -53,31 +53,45 @@ This project demonstrates the practical implementation of Machine Learning with 
 - GitHub
 
 ---
-
 ## 📁 Project Structure
 
 ```text
 Smart-Lender/
+│
 ├── Dataset/
 │   └── loan_prediction.csv
+│
 ├── Flask/
 │   ├── static/
 │   │   ├── css/
 │   │   │   └── style.css
 │   │   └── js/
 │   │       └── script.js
+│   │
 │   ├── templates/
 │   │   ├── index.html
 │   │   ├── about.html
 │   │   ├── predict.html
 │   │   └── result.html
+│   │
 │   ├── app.py
 │   ├── model.pkl
 │   └── scaler.pkl
+│
 ├── Screenshots/
+│   ├── Home.png
+│   ├── About.png
+│   ├── Loan Eligibility Prediction.png
+│   ├── Loan Approved.png
+│   └── Loan Rejected.png
+│
 ├── Training/
-├── requirements.txt
+│   ├── Smart_Lender.ipynb
+│   ├── model.pkl
+│   └── scaler.pkl
+│
 ├── README.md
+├── requirements.txt
 └── .gitignore
 ```
 
